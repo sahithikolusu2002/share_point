@@ -3,9 +3,9 @@ from sharepoint_downloader import SharePointDownloader
 
 def main():
     # Configure SharePoint credentials and search query
-    username = "surya@datahungrylabs.onmicrosoft.com"
-    password = "Deloitte1"
-    search_query = "https://datahungrylabs.sharepoint.com/Shared%20Documents/sharepoint/new1/powerpoint/sahi.pptx"
+    username = "username"
+    password = "password"
+    search_query = "https://<company-name>.sharepoint.com/Shared%20Documents/sharepoint/new1/powerpoint/sahi.pptx"
 
     # Create an instance of SharePointDownloader
     downloader = SharePointDownloader(username, password)
