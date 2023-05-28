@@ -9,9 +9,7 @@ def extract_file_urls(html_content):
     anchor_tags = soup.find_all('a', href=True)
 
     # Extract the file URLs from the href attributes
-    file_urls = ["https://datahungrylabs.sharepoint.com/Shared%20Documents/sharepoint/new1/powerpoint/sahi.pptx",
-                 "https://datahungrylabs.sharepoint.com/Shared%20Documents/sharepoint/new2/word/sahi.docx",
-                 "https://datahungrylabs.sharepoint.com/Shared%20Documents/sharepoint/new3/excel/sahi.xlsx"
+    file_urls = [
                  ]
     for anchor_tag in anchor_tags:
         file_url = anchor_tag['href']
