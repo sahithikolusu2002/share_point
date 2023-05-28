@@ -5,7 +5,7 @@ def main():
     # Configure SharePoint credentials and search query
     username = "username"
     password = "password"
-    search_query = "https://<company-name>.sharepoint.com/Shared%20Documents/sharepoint/new1/powerpoint/sahi.pptx"
+    search_query = "https://<company-name>.sharepoint.com/Shared%20Documents/"
 
     # Create an instance of SharePointDownloader
     downloader = SharePointDownloader(username, password)
