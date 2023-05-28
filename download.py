@@ -28,7 +28,6 @@ def download_file(file_url, username, password):
         print("Error:", e)
 
 # Provide the SharePoint file URL, username, and password
-#file_url = "https://datahungrylabs.sharepoint.com/Shared%20Documents/hello.docx"
 file_url = "https://<company-name>.sharepoint.com/Shared%20Documents/sharepoint/powerpoint"
 username = "username"
 password = "password"
