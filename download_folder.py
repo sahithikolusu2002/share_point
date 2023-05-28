@@ -56,9 +56,9 @@ def extract_file_urls(html_content):
     anchor_tags = soup.find_all('a', href=True)
 
     # Extract the file URLs from the href attributes
-    file_urls = ["https://datahungrylabs.sharepoint.com/Shared%20Documents/sharepoint/powerpoint/PRESENTATION TITLE.pptx",
-                "https://datahungrylabs.sharepoint.com/Shared%20Documents/sharepoint/excel/Book1.xlsx",
-                 "https://datahungrylabs.sharepoint.com/Shared%20Documents/sharepoint/word/ZURAIDE ELORRIAGA.docx"
+    file_urls = ["https://<company-name>.sharepoint.com/Shared%20Documents/sharepoint/powerpoint/PRESENTATION TITLE.pptx",
+                "https://<company-name>.sharepoint.com/Shared%20Documents/sharepoint/excel/Book1.xlsx",
+                 "https://<company-name>.sharepoint.com/Shared%20Documents/sharepoint/word/ZURAIDE ELORRIAGA.docx"
                 ]
     for anchor_tag in anchor_tags:
         file_url = anchor_tag['href']
@@ -67,9 +67,9 @@ def extract_file_urls(html_content):
     return file_urls
 
 # Provide the SharePoint folder URL, username, and password
-file_url = "https://datahungrylabs.sharepoint.com/Shared%20Documents/sharepoint"
-username = "surya@datahungrylabs.onmicrosoft.com"
-password = "Deloitte1"
+file_url = "https://<company-name>.sharepoint.com/Shared%20Documents/sharepoint"
+username = "username"
+password = "password"
 
 # Call the download_folder function
 download_folder(file_url, username, password)
