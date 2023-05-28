@@ -43,9 +43,9 @@ class DownloadFolder:
 
 
 # Provide the SharePoint file URL, username, and password
-file_url = "https://datahungrylabs.sharepoint.com/Shared%20Documents/share_visual/word/helo.docx"
-username = "surya@datahungrylabs.onmicrosoft.com"
-password = "Deloitte1"
+file_url = "https://<company-name>.sharepoint.com/Shared%20Documents/share_visual/word/helo.docx"
+username = "username"
+password = "password"
 
 # Create an instance of DownloadFolder
 downloader = DownloadFolder(username, password)
