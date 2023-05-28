@@ -29,9 +29,9 @@ def download_file(file_url, username, password):
 
 # Provide the SharePoint file URL, username, and password
 #file_url = "https://datahungrylabs.sharepoint.com/Shared%20Documents/hello.docx"
-file_url = "https://datahungrylabs.sharepoint.com/Shared%20Documents/sharepoint/powerpoint"
-username = "surya@datahungrylabs.onmicrosoft.com"
-password = "Deloitte1"
+file_url = "https://<company-name>.sharepoint.com/Shared%20Documents/sharepoint/powerpoint"
+username = "username"
+password = "password"
 
 
 # Call the download_file function
